@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: #E1E4E4;
   padding: 15px;
 }
 header ul {
@@ -15,10 +15,44 @@ header li {
   padding: 0px 5px;
 }
 
+
+.content {
+  display: flex; 
+  justify-content: flex-start;
+  }
+
+.flex-container {
+  display: flex;
+  padding: 150px;
+}
+
+.researcher {
+  width: 33%;
+}
+
+.Interface {
+  width: 33%;
+}
+
+.webDev {
+  width: 33%;
+}
+
+
+.weather {
+display: flex; 
+justify-content: flex-start;
+}
+
+.NSPKU {
+  display: flex; 
+  justify-content: flex-start;
+  }
+
 li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: black;
   display: block;
   padding: 10px;
 }
@@ -32,7 +66,7 @@ header p {
 }
 
 .hero {
-  background-color: #EBEBEB;
+  background-color: #F0F1F3;
   padding: 100px 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -41,7 +75,6 @@ header p {
   max-width: 300px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #FFFFFF;
   text-align: center;
 }
 button {
@@ -52,7 +85,7 @@ button {
   border-radius: 4px;
 }
 footer {
-  background-color: #373738;
+  background-color: #E1E4E4;
   padding: 5px;
   color: white;
 }
@@ -64,3 +97,6 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
