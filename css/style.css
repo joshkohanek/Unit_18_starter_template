@@ -100,3 +100,15 @@ footer li {
 
 @media only screen and (max-width: 600px) {
   body {
+
+    .hero {
+font-size: 16px;
+    }
+
+    .resercher {
+      font-size: 16px;
+          }
+
+          .Interface {
+            font-size: 16px;
+                }
