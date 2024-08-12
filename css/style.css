@@ -72,7 +72,7 @@ header p {
 
 .hero {
   background-color: #F0F1F3;
-  padding: 100px 15px;
+  padding: 100px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -81,6 +81,14 @@ header p {
   margin: 0 auto;
   padding: 50px;
   text-align: center;
+}
+
+h5{
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px; 
+
 }
 button {
   padding: 15px;
