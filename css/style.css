@@ -45,14 +45,20 @@ header li {
 
 
 .weather {
-display: flex; 
-justify-content: flex-start;
+display: block; 
+}
+
+.workGrid{
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .NSPKU {
-  display: flex; 
+  display: block; 
   justify-content: flex-start;
   }
+
+  
 
 li a {
   text-decoration: none;
@@ -99,7 +105,9 @@ button {
   
 }
 
-
+.seeker{
+  width: 300px;
+}
 
 .text-content {
   display: flex;
@@ -108,9 +116,7 @@ button {
 
 }
 
-p{
-  display: block;
-}
+
 
 .download {
 
